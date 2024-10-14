@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fucking a bit，you gonna know that</title>
+  <style>
+    /* 添加一些简单的样式 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .top-nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    .search-box {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .search-box input[type="text"] {
+      width: 400px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .search-box input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+    .footer ul {
+      list-style-type: none;
+    }
+    .footer .ordered-list {
+      list-style-type: decimal;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 导航栏 -->
+<div class="top-nav">
+  <div>
+    <a href="news.html">新闻</a>
+    <a href="#">再别说了123</a>
+    <!-- 其他导航链接 -->
+  </div>
+  <div>
+    <a href="#">设置</a>
+    <a href="#">个人中心</a>
+  </div>
+</div>
+
+<!-- 搜索框 -->
+<div class="search-box">
+  <img src="img/my-logo.png" alt="我的Logo" style="width: 150px; height: auto;" />
+  <br><br>
+  <input type="text" placeholder="请输入搜索内容" />
+  <input type="submit" value="fucking一下" onclick="showAlert()" />
+</div>
+
+<!-- 页脚推荐和百度热搜 -->
+<div class="footer">
+  <div>
+    <h3>章浩Music Album精选推荐</h3>
+    <ul class="ordered-list">
+      <li>《未来》 -- 方大同（Khalil Fong）</li>
+      <li>《叶惠美》 -- 周杰伦（Jay Chou）</li>
+      <li>《Talking Box》 -- Stevie Wonder</li>
+    </ul>
+    <ul>
+      <li>        以上这些都无法点击</li>
+    </ul>
+  </div>
+  <div>
+    <h3>章浩精选热搜</h3>
+    <ul>
+      <li>方大同新歌《我不是农人》真的好听吗？</li>
+      <li>周杰伦再被质疑江郎才尽，最新专辑惨遭质疑</li>
+      <li>陶喆演唱会门票一抢而空，疑似第二春？</li>
+    </ul>
+    <ul>
+      <li>         以上这些都无法点击</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  function showAlert() {
+    alert("你还真他妈想搜啊，老老实实打开www.baidu.com");
+  }
+</script>
+</body>
+</html>
